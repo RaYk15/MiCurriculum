@@ -1,3 +1,5 @@
+// componente para las píldoras de habilidades, competencias e idiomas.
+// Recibe el nombre de la habilidad y el nivel de experiencia.
 function Pildora({ nombre, nivel }) {
   return (
     <div className="pildora-item">
