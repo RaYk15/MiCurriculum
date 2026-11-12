@@ -1,3 +1,4 @@
+// imports varios: el css, los componentes y la foto de perfil
 import './App.css'
 import Fondo from './componentesReact/Fondo.jsx';
 import Tarjeta from './componentesReact/Tarjeta.jsx';
@@ -47,6 +48,7 @@ const educacion = [
   { titulo: 'Bachillerato artístico', centro: 'Escuela de Artes y Oficios de Pamplona', periodo: 'Septiembre 2018 - Junio 2020'}
 ]
 
+// componente principal
 function App() {
   return (
     <div className="contenedor-principal">
